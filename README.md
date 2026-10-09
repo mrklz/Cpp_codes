@@ -17,8 +17,8 @@ Cpp_codes/
 │   ├── Shuffle.h
 │   └── Shuffle.cpp
 └── oop_basics/             # Папка для теории и ООП-практики
-    ├── классы_конструкторы.cpp
-    └── перегрузки.cpp
+    ├── clss_constr.cpp
+    └── overcharge.cpp
 </pre>
 
 ## Описание разделов
