@@ -9,6 +9,7 @@ Cpp_codes/
 ├── codeforces/             # Решения задач с платформы Codeforces
 │   ├── Soldier_and_Bananas.cpp
 │   └── Word_Capitalization.cpp
+|   |__ ... 
 ├── leetcode_tasks/         # Папка для задач с LeetCode
 │   ├── Concentration_of_Array.h
 │   ├── Concetration_of_Array.cpp
@@ -16,9 +17,11 @@ Cpp_codes/
 │   ├── Max_Consecutive_Once.cpp
 │   ├── Shuffle.h
 │   └── Shuffle.cpp
+|   |__ ... 
 └── oop_basics/             # Папка для теории и ООП-практики
     ├── clss_constr.cpp
     └── overcharge.cpp
+    |__ ...
 </pre>
 
 ## Описание разделов
