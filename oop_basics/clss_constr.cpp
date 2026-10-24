@@ -26,5 +26,7 @@ int main(){
   cin>>name>>surname;
   Student st(name, surname);
   st.show();
+  if(st.is_alive()){ st.hp-=1;}
+  st.show();
   return 0;
 }
