@@ -4,16 +4,16 @@
 #include <algorithm>
 #include <cstdlib>
 using namespace std;
-class Test{ 
+class Test{ //создаем сущность и даем ей атрибуты
 public:
     string name;
     int num, id;
     Test(): name(""), num(0), id(0){};
 };
-class Menu{
+class Menu{ //создаем еще одну сущность, в которой работаем с вектором первых сущностей и методы
 private:
     vector<Test> tests;
-    void fill(){
+    void fill(){ //метод для заполнения сущности атрибутами
         int n;
         cout<<"Введите число набираемых слов"<<endl;
         cin>>n;
@@ -25,7 +25,7 @@ private:
         }
         cout<<"Всё ок"<<endl;
     }
-    void printTests(){
+    void printTests(){ //метод вывода вектора сущностей
         if(tests.empty()){
             return;
         } 
@@ -34,7 +34,7 @@ private:
         }
         cout<<"Готово"<<endl;
     }
-    void sortNum(){
+    void sortNum(){ //сортировка по второму атрибуту
         if(tests.empty()){
             return;
         } 
@@ -43,7 +43,7 @@ private:
         });
         cout<<"Готово"<<endl;
     }
-     void sortId(){
+     void sortId(){ //сортировка по третьему атрибуту
         if(tests.empty()){
             return;
         } 
@@ -53,7 +53,7 @@ private:
         cout<<"Готово"<<endl;
     }
 public:
-    void runMenu(){
+    void runMenu(){ //главный метод, в котором происходит проверка того, что выберет пользователь
         int choice;
         while(true){
         cout << "\n=== МЕНЮ ===" << endl;
