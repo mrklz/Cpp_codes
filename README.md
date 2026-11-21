@@ -11,6 +11,7 @@ Cpp_codes/
 ├── leetcode_tasks/                    # Задачи с LeetCode
 └── oop_basics/                        # Теория и ООП-практика
 |__ яндекс/                            # Задачи с пробного тура Yandex Cup
+|__ Vinni/Vinni/Vinni-05/vinny_mine/   # Итоговая работа за курс(на С++)
 </pre>
 
 ## Как запустить
